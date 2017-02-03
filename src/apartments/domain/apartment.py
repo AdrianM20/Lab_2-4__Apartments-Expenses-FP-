@@ -7,7 +7,7 @@ Created on 19 oct. 2016
 def create_apartment(apartment_id, expense_type, ammount):
     '''
         Returns a dictionary representing a specific expense
-        Input: Input: apartment number, ammount as integers and the type of expense as a string
+        Input: apartment number, ammount as integers and the type of expense as a string
         Output: a dictionary containing apartment id, expense type and ammount
     '''
     return {"apartment_id": apartment_id, "expense_type": expense_type, "ammount": ammount}
